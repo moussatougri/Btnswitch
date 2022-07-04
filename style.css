@@ -1,0 +1,30 @@
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+button{
+  border-radius: 20px;
+  padding: 30px;
+}
+
+
+.switch-black{
+  background-color: black;
+  color: white;
+}
+
+.switch-light{
+  background-color: yellow;
+  color: black;
+  border: 1px solid yellow;
+}
